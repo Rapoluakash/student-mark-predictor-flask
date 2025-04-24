@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 # ✅ Load the model (file path must be correct)
 model = joblib.load(
-    r"C:\Users\rapol\Downloads\DATA SCIENCE\4. Dec\19th- Student mark prediction project\4. Students mark prediction\Student Mark Predictor Project Deployment\Student mark Predictor Deployment\student_mark_predictor.pkl1"
+    r"C:\Users\rapol\Downloads\DATA SCIENCE\4. Dec\19th- Student mark prediction project\4. Students mark prediction\Student Mark Predictor Project Deployment\Student mark Predictor Deployment\student_mark_predictor.pkl"
 )
 
 # DataFrame to store input + prediction
